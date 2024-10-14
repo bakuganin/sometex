@@ -4640,7 +4640,7 @@ html {
   
     .right-side {
       width: auto;
-      margin-top: 60px;
+      margin-top: 30px;
     }
   
     .inst-link {
@@ -5676,7 +5676,7 @@ html {
     .map {
       min-width: auto;
       max-width: none;
-      height: 400px;
+      height: 430px;
     }
   
     .copi {
@@ -5824,11 +5824,27 @@ html {
     }
   
     .logo-brand-link {
-      box-shadow: none;
+      background-color: #fff;
+      align-items: center;
+      width: 120px;
+      height: 60px;
+      transition: all .555s;
+      display: flex;
     }
-  
+    
     .logo-brand-link:hover {
-      box-shadow: 60px 0 #000;
+      background-color: #ddd;
+      box-shadow: 60px 0 #ddd;
+    }
+    
+    .logo-brand-link:active {
+      background-color: #f0f0f0;
+      box-shadow: 60px 0 #f0f0f0;
+    }
+    
+    .logo-brand-link.w--current {
+      background-color: #fff;
+      padding-left: 0;
     }
   
     .nav-menu-btn:hover {
@@ -5845,7 +5861,7 @@ html {
     }
   
     .works {
-      height: 610vw;
+      height: 740vw;
       margin-left: 0;
     }
   
@@ -5865,7 +5881,7 @@ html {
     }
   
     .work-item {
-      height: 80vw;
+      height: 100vw;
       position: relative;
     }
   
@@ -5875,7 +5891,7 @@ html {
     }
   
     .work-item.upcoming-2024-sec {
-      height: 80vw;
+      height: 110vw;
     }
   
     .tittle {
